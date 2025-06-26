@@ -1,0 +1,12 @@
+Copy your key.pem file into this folder.
+hese configurations are set for the eu-west-1 (Ireland) region. If you want to use a different region, you also need to update the region value in the myvars.auto.tfvars file.
+
+File-specific instructions:
+
+> main.tf
+Line 192: Enter your domain name.
+
+> myvars.auto.tfvars
+Line 3: Enter your key name.
+Line 8: Set the appropriate region (update if you're working in a different region).
+Line 9: Enter the hosted zone ID of your domain.
