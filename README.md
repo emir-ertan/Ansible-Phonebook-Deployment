@@ -37,7 +37,7 @@ This project provides Ansible playbooks and roles, along with Terraform configur
             - (Other standard role directories: `defaults/`, `files/`, `handlers/`, `meta/`, `templates/`, `tests/`, `vars/`)
 - `terraform-files/`: Contains Terraform configuration files for provisioning AWS infrastructure.
     - [`ansible.cfg`](terraform-files/ansible.cfg): Ansible configuration file.
-    - [`lines-to-edit.txt .txt`](terraform-files/lines-to-edit.txt .txt): Notes file.
+    - [`lines-to-edit.txt`](terraform-files/lines-to-edit.txt): Notes file.
     - [`main.tf`](terraform-files/main.tf): Main Terraform file defining AWS resources (EC2 instances, Security Group, IAM roles). Includes commented-out sections for ALB and Route53.
     - [`myvars.auto.tfvars`](terraform-files/myvars.auto.tfvars): Example variable definitions for Terraform.
     - [`variable.tf`](terraform-files/variable.tf): Terraform variable definitions.
